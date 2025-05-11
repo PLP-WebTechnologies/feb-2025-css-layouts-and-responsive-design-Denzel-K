@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">FlexGrid</h1>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <button class="nav-toggle" aria-label="Toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <h2>Responsive Web Design</h2>
+                <p>Built with Flexbox and Grid, optimized for all devices</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <h2 class="section-title">Our Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>Mobile First</h3>
+                        <p>Designed with mobile devices in mind first, then scaled up for larger screens.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Flexbox Layout</h3>
+                        <p>Modern Flexbox technology for flexible component arrangements.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>CSS Grid</h3>
+                        <p>Powerful Grid layout for two-dimensional content organization.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Responsive</h3>
+                        <p>Adapts seamlessly to all screen sizes and devices.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content">
+            <div class="container">
+                <article class="content-primary">
+                    <h2>Main Content Area</h2>
+                    <p>This section uses Flexbox to create a flexible layout that adjusts based on available space. The sidebar will stack below on smaller screens.</p>
+                    <p>The layout includes proper spacing and alignment throughout, with media queries to adjust the design at different breakpoints.</p>
+                </article>
+                <aside class="content-secondary">
+                    <h3>Sidebar</h3>
+                    <p>Additional content that complements the main information. On desktop it appears to the side, on mobile it moves below.</p>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Responsive Layout. All rights reserved.</p>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
